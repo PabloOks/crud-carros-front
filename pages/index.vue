@@ -5,9 +5,9 @@
     </div>
   </div>
   <div class="row">
-    <div class="flex md12">
+    <div class="flex">
       <NuxtLink to="/novo"><VaButton>Novo</VaButton></NuxtLink>
-      <VaSpacer class="spacer" />
+      <VaSpacer />
       <VaButton @click="updateCars">Atualizar</VaButton>  
     </div>
   </div>
