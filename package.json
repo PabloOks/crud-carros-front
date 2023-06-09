@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxthq/ui": "^2.3.0",
+    "@pinia/nuxt": "^0.4.11",
+    "@types/node": "^18",
+    "@vuestic/nuxt": "^1.0.14",
+    "nuxt": "^3.5.2",
+    "nuxt-lodash": "^2.4.1",
+    "nuxt-quasar-ui": "^1.7.4"
+  }
+}
